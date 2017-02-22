@@ -124,6 +124,7 @@
 				<version>${maven-compiler-plugin.version}</version>
 				<configuration>
 					<encoding>${project.properties.encoding}</encoding>
+					<compilerArgs>-proc:none</compilerArgs>
 					<target>${java.version}</target>
 					<source>${java.version}</source>
 				</configuration>
